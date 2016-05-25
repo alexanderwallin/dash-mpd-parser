@@ -1,0 +1,23 @@
+{
+  "name": "dash-mpd-parser",
+  "version": "0.1.0",
+  "description": "(Alpha) MPD fetcher + parser, extracted from dash.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "dist": "webpack",
+    "serve": "webpack-dev-server --inline --color --progress --port 8293 --content-base public"
+  },
+  "keywords": [],
+  "author": "Alexander Wallin <office@alexanderwallin.com> (http://alexanderwallin.com)",
+  "license": "ISC",
+  "dependencies": {
+    "dash.js": "^2.0.0-rc4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
