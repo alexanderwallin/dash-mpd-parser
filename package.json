@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "(Alpha) MPD fetcher + parser, extracted from dash.js",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dist": "webpack",
     "serve": "webpack-dev-server --inline --color --progress --port 8293 --content-base public"
