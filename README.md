@@ -12,7 +12,7 @@ There's tons of useful stuff inside dash.js. All this would be useful even if yo
 
 For instance, parsing and validating MPDs is a tedious task, and extracting that functionality into a separate package would be of great use for anyone dealing with MPDs.
 
-By modularizing dash.js into its different different components would:
+Modularizing dash.js into its different different components would also:
 
 1. make it easier to compose your own player;
 2. make it easer to extend the functionality (f.i. audio-only or doing playback via the Web Audio API); and
