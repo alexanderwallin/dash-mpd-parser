@@ -26,7 +26,7 @@ Fetching and parsing an MPD:
 import { fetchMpd } from 'dash-mpd-parser'
 
 fetchMpd('http://example.com/video.mpd', mpd => {
-  // Here's are parsed MPD!
+  // Here's our parsed MPD!
   console.log(mpd)
 })
 ```
