@@ -1,6 +1,6 @@
 {
   "name": "dash-mpd-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "(Alpha) MPD fetcher + parser, extracted from dash.js",
   "main": "dist/index.js",
   "files": [
