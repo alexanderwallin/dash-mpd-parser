@@ -1,5 +1,5 @@
-import DashParser from 'dash.js/src/dash/DashParser.js'
-import XLinkController from 'dash.js/src/streaming/controllers/XlinkController.js'
+import DashParser from '../../dash.js/src/dash/DashParser.js'
+import XLinkController from '../../dash.js/src/streaming/controllers/XlinkController.js'
 
 const parser = DashParser().create()
 
